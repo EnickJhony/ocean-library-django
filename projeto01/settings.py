@@ -55,7 +55,7 @@ ROOT_URLCONF = 'projeto01.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["BoraAli/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
